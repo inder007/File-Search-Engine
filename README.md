@@ -24,3 +24,6 @@ python2 queryindex.py stopwords.dat indexOut.dat filename.dat
 ```
 It will again ask you for path to the folder having the files that were indexed. You would get filename, line number in that file and line having query you searched for.
 
+Here is screenshot for your reference. It shows result for multi word free text query.
+![screenshot from 2018-07-20 14-58-54](https://user-images.githubusercontent.com/28534781/42995070-8411a77e-8c2d-11e8-9473-d8a2a9668aa7.png)
+
