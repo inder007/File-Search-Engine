@@ -66,6 +66,7 @@ class CreateIndex:
 	def createindex(self):
 		global path
 		path = raw_input("Give Path of folder having files to be indexed: ")
+		print "Indexing..."
 		self.getparameters()
 		self.getstopwords()
 		# bug in python garbage collector!
@@ -117,6 +118,7 @@ class CreateIndex:
 		end_time = time.time()
 		# print end_time-start_time
 		self.writeIndexToFile()
+		print "Indexing Completed.\n"
 
 
 if __name__ == "__main__":
